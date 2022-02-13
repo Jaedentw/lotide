@@ -23,7 +23,7 @@ const countLetters = function(string) {
 
   for (let l = 0; l < string.length; l++) {
     for (let x = 0; x <= keys.length; x++) {
-      if (string[l] !== keys[x]) {
+      if (string[l] !== keys[x]) { //&& string[l] !== ' ' if spaces aren't to be counted
         count += 1;
         if (count >= keys.length) {
           scores[string[l]] = true;
@@ -36,4 +36,4 @@ const countLetters = function(string) {
   return final;
 };
 
-console.log(countLetters('mississippy'));
+console.log(countLetters('mississippy mississippy'));
