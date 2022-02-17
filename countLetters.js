@@ -1,19 +1,4 @@
-const countOnly = function(allItems, itemsToCount) {
-  
-  const results = {};
-
-  for (let name2 of allItems) {
-    if (itemsToCount[name2]) {
-      if (results[name2]) {
-        results[name2] += 1;
-      } else {
-        results[name2] = 1;
-      }
-    }
-  }
-  
-  return results;
-};
+const countOnly = require('./countOnly');
 
 const countLetters = function(string) {
   
@@ -36,4 +21,6 @@ const countLetters = function(string) {
   return final;
 };
 
-console.log(countLetters('mississippy mississippy'));
+module.exports = countLetters;
+
+//console.log(countLetters('mississippy mississippy'));

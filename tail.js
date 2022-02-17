@@ -3,4 +3,4 @@ const tail = function(array) {
   a.splice(0, 1);
   return a;
 };
- module.exports = tail
+ module.exports = tail;
