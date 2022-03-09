@@ -11,8 +11,8 @@ const middle = function(arrays) {
       let val1 = array[find];
       let val2 = array[half];
       mid.push(val1, val2);
-    } 
-    if (array.length % 2 !== 0){
+    }
+    if (array.length % 2 !== 0) {
       let find = half - 0.5;
       let val = (array[find]);
       mid.push(val);
