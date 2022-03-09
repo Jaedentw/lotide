@@ -36,25 +36,3 @@ module.exports = {
   assertArraysEqual,
   assertObjectsEqual
 };
-
-/*
-module.exports = {
-  map: map,
-  head: head,
-  tail: tail,
-  middle: middle,
-  flatten: flatten,
-  without: without,
-  eqArrays: eqArrays,
-  eqObjects: eqObjects,
-  takeUntil: takeUntil,
-  countOnly: countOnly,
-  countLetters: countLetters,
-  letterPositions: letterPositions,
-  findKey: findKey,
-  findKeyByValue: findKeyByValue,
-  assertEqual: assertEqual,
-  assertArraysEqual: assertArraysEqual,
-  assertObjectsEqual: assertObjectsEqual
-};
-*/
