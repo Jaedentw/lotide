@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@jaedentw/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Student replica of lodash for Lighthouse Labs",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Bloop180/lotide.git"
   },
-  "author": "",
+  "author": "Jaeden West <jaeden.t.west@gmail.com> (https://github.com/Jaedentw)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Bloop180/lotide/issues"
